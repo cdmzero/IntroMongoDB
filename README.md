@@ -1,20 +1,21 @@
-# First Setup MongoDB
+# First Setup MongoDB en MAC
 
-1. Descargamos y arrancamos Docker Engine.
+* Descargamos y arrancamos Docker Engine.
+* Descargamos el gestor de paquetes brew.
 
-1. Instalamos el cliente Mongo.
+* Instalamos el cliente MongoDB.
 
 ```bash
 brew install mongodb/brew mongodb-community-shell                                                                                                                                                     
 ```
 
-1. Instalamos las herramientas de Mongo
+* Instalamos las herramientas para gestionar MongoDB.
 
 ```bash
 brew install mongodb-database-tools                                                                                                                                                                   
 ```
 
-1. Ejecutamos el script.
+* Ejecutamos el script.
 
 ```bash
 
