@@ -1,2 +1,2 @@
-mongoimport --host localhost --port 27017 --db ViajeBici --collection viajes  --type csv --headerline --file ViajeBici_reducido_3000.csv
+mongoimport --host localhost --port 27017 --db ViajeBici --collection viajes  --type csv --headerline --file ViajeBici_reducido_30000.csv
 mongoimport --host localhost --port 27017 --db ViajeBici --collection usuviajes  --type csv --headerline --file UsuViajeBici.csv
