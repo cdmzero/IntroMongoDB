@@ -1,5 +1,5 @@
-db = db.getSiblingDB("ViajeBici");
-// Etapa 1: Calcular los totales de retiros por hora
+var db = new Mongo().getDB("ViajeBici");
+// db = db.getSiblingDB("ViajeBici");
 var hourlyTotals = db.viajes.aggregate([
     {
         $project: {
